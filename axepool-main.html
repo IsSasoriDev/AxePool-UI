@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AxePool - Open Source The World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0a0f2c;
+            color: #dce6ff;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 30px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            animation: pulseGlow 3s infinite ease-in-out;
+        }
+
+        .logo svg {
+            width: 100%;
+            height: 100%;
+            fill: #4fc3f7;
+            filter: drop-shadow(0 0 6px #4fc3f7aa);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #a5d0ff;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #9eb7d3;
+            margin-top: 10px;
+        }
+
+        .section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #11193c;
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(56, 123, 255, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .section h2 {
+            color: #6ebeff;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: #0f162f;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(78, 156, 255, 0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 0 15px rgba(78, 156, 255, 0.25);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            padding: 30px;
+            color: #6c88b6;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% {
+                filter: drop-shadow(0 0 5px #4fc3f7aa);
+            }
+            50% {
+                filter: drop-shadow(0 0 12px #4fc3f7ff);
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+            .section { margin: 20px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <!-- Bitaxe-style inspired logo (minimalistic, glowing chip+axe) -->
+        <svg viewBox="0 0 64 64">
+            <path d="M32 4l6 10h10l-6 10 6 10h-10l-6 10-6-10H16l6-10-6-10h10l6-10z"/>
+        </svg>
+    </div>
+    <h1>AxePool</h1>
+    <p>Open Source the World</p>
+</header>
+
+<section class="section">
+    <h2>📊 Pool Stats</h2>
+    <div class="card">⚡ Hashrate: <strong>55 KH/s cause my Nerdminer on top</strong></div>
+    <div class="card">🌎 Connected Miners: <strong>420</strong></div>
+    <div class="card">💰 Last Block Found: <strong>#889975</strong></div>
+</section>
+
+<section class="section">
+    <h2>🧠 Why AxePool?</h2>
+    <div class="card">✅ Open Source & Transparent</div>
+    <div class="card">📡 Mainly for Bitaxe But NerdMiners Allowed</div>
+    <div class="card">🧮 You will get nothing Reward System</div>
+</section>
+
+<section class="section">
+    <h2>🚀 Getting Started</h2>
+    <div class="card">1. Point your miner to: <strong>axepool.Skothowmanybitaxesdoyouhave?:3333</strong></div>
+    <div class="card">2. Use your BTC wallet as username</div>
+    <div class="card">3. Enjoy decentralized mining rewards!</div>
+</section>
+
+<footer>
+    © 2025 1.2.Th? Overclock it!! · Built by Edu | Open Source Miners United ⚒️
+</footer>
+
+</body>
+</html>
